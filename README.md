@@ -13,16 +13,24 @@ adoption - represents what owner adopted what animal (the relations is one to ma
 ● pet_id references id from the pet table. must be unique.
 ● other columns: adoption_date
 IMPORTANT: see and execute insert_shelter_data.sql to add values to the table.
+
 q2.sql: create a query to show how many pets are unadopted
+
 q3.sql: Show how many pets were adopted between 2016-01-01 and 2018-01-01
+
 q4.sql: Show how much each pet waited (in days) from arrival to adoption(example: if a dog
 arrived in 2003 and adopted in 2005 it waited 2 years, a dog arrived in 2007 and adopted in
 2010 waited 3 years) ordered from highest waiting time to lowest.
+
 q5.sql: Find which pets were born in the shelter (if their arrival date is the same as their birth
 date)
+
 q6.sql: Show for each kind of animal how many got adopted, ordered from most adopted to
 least. (how many dogs were adopted, how many cats were adopted etc)
+
 q7.sql: Show unadopted dogs from oldest to youngest
+
 q8.sql: for each female who adopted cats, show how many cats they adopted, ordered from
 most cats to least.
+
 q9.sql: find all owners with no adoptions
